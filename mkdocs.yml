@@ -1,0 +1,8 @@
+site_name: Lucas Ramon
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    logo: media/logoLR.png
+    favicon: media/logoLR.png
