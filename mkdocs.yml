@@ -4,8 +4,9 @@ theme:
   name: material
   language: 'pt'
   logo: 'media/LR.png'
+  favicon: 'media/LR.png'
   palette:
     scheme: slate
-    favicon: media/LR.png
+    
 nav:
 - Quem eu sou? : index.md
