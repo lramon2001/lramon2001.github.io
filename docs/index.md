@@ -19,14 +19,11 @@ Sou apaixonado por carros, motocicletas e bicicletas. Gosto de dirigir o Opala 1
 <tr>
 <td align="center">
 <img src="./media/opala.png" width="256" height="256"/> 
-
   </td>
 <td align="center">
   <img src="./media/passat.png" width="256" height="256"/>
- 
   </td>
   <td align="center">
    <img src="./media/bike.png" width="256" height="256"/>
-
   </td>
   </table>
