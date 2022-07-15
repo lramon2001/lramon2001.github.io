@@ -6,6 +6,6 @@ theme:
   logo: 'media/logoLR.png'
   palette:
     scheme: slate
-    favicon: media/logoLR.png
+    favicon: media/LR.png
 nav:
 - Quem eu sou? : index.md
