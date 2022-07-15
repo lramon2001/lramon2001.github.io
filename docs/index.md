@@ -2,6 +2,6 @@
 
 <center>
 
-<img src=".LucasRamonSoftwareEnginnerProfile.png/media/"/>
+<img src="./media/LucasRamonSoftwareEngineerProfile.png"/>
 
 </center>
