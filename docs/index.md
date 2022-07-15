@@ -1,5 +1,7 @@
 # Olá,sou Lucas Ramon
 
+<center>
 
+<img src=".LucasRamonSoftwareEnginnerProfile.png/media/"/>
 
-  ![gif](https://github.com/lramon2001/lramon2001.github.io/blob/master/LucasRamonSoftwareEngineerProfile.png)
+</center>
