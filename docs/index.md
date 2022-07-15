@@ -2,9 +2,4 @@
 
 
 
-
-<center>
-
-<img src=".LucasRamonSoftwareEngineerProfile.png/media/" />
-
-</center>
+  ![gif](https://github.com/lramon2001/lramon2001.github.io/blob/master/LucasRamonSoftwareEngineerProfile.png)
