@@ -3,7 +3,7 @@ site_name: Lucas Ramon
 theme:
   name: material
   language: 'pt'
-  logo: 'media/logoLR.png'
+  logo: 'media/LR.png'
   palette:
     scheme: slate
     favicon: media/LR.png
