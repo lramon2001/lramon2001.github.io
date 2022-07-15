@@ -1,5 +1,4 @@
 
-
 <center>
 
 <img src="./media/LucasRamonSoftwareEngineerProfile.png"/>
@@ -15,5 +14,11 @@ Ingressei na Universidade em junho de 2018 pelo vestibular tradicional enquanto 
 
 ## 3. Hobbies e Curiosidades sobre mim
 
-Sou apaixonado por carros e motocicletas. O carro que mais gosto de dirigir é o Opala 1989 do meu tio, minha família é bem engajada no negócio. Fazemos manutenção e consertos nos veículos para distração, é uma forma de aproveitar a companhia da parentada e de compartilhar o nosso amor pelos automóveis.
+Sou apaixonado por carros e motocicletas. Gosto de dirigir o Opala 1989 do meu tio e o Passat LS do meu outro tio, minha família é bem engajada no negócio. Fazemos manutenção e consertos nos veículos para distração, é uma forma de aproveitar a companhia da parentada e de compartilhar o nosso amor por automóveis.
 
+
+<left>
+
+<img src="./media/opala.png" width="256" height="256"/>
+
+</left>
