@@ -1,5 +1,5 @@
 
-
+<img src="./media/passat.png" width="256" height="256"/>
 
 ## 1.1.1- Quem sou eu?
 Sou Lucas Ramon futuro engenheiro de software e estudante da Universidade de Brasília.
