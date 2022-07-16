@@ -13,9 +13,9 @@
    <img align="center" alt="Judeu-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg">
  </div> 
  
-## 2.1 - Linguagens 
+<h2>2.1 - Linguagens </h2>
 
-### Java
+<h3>Java</h3>
   É a linguagem que mais tenho familiaridade, o meu primeiro contato com java foi na disciplina de Orientações a Objetos. Fiz diversos cursos com certificação e adoro trabalhar com java.
  Lista dos meus projetos feitos utilizando JDK:
 <ul>
@@ -31,7 +31,7 @@
 </ul>
 <tr>
 
- ### C/C++
+<h3>C/C++</h3>
  
   Foi a primeira linguagem com que tive contato, aprendi a pensar em algoritmos com esta linguagem. Meus professores da UnB a utilizaram para estudar Algoritmos e Programação de Computadores, Estrutura de Dados 1 e Estrutura de Dados 2
 <ul>
