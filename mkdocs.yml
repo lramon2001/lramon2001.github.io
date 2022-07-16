@@ -7,6 +7,11 @@ theme:
   palette:
     scheme: slate
     
-nav:
-- Apresentação : index.md
-  - 1.Sobre mim : index.md
+nav: 
+  - Apresentação: index.md
+  
+  - Planejamento:
+    - Planejamento: planejamento/planejamento.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Cronograma: planejamento/cronograma.md
+  - Rich Picture: richpicture.md
