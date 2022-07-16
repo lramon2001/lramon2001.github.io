@@ -13,7 +13,7 @@
    <img align="center" alt="Judeu-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg">
  </div> 
  <tr>
-  
+  </tr>
 ## 2.1 - Linguagens
 
 ### Java
@@ -31,6 +31,7 @@
 <li><a href="https://github.com/lramon2001/Algoritmo-Genetico-UnB">Algoritmo Genetico</a></li>
 </ul>
 <tr>
+</tr>
 
 ### C/C++
  
