@@ -13,6 +13,7 @@
    <img align="center" alt="Judeu-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg">
  </div> 
  <tr>
+  
 ## 2.1 - Linguagens
 
 ### Java
@@ -31,7 +32,7 @@
 </ul>
 <tr>
 
-  ### C/C++
+### C/C++
  
   Foi a primeira linguagem com que tive contato, aprendi a pensar em algoritmos com esta linguagem. Meus professores da UnB a utilizaram para estudar Algoritmos e Programação de Computadores, Estrutura de Dados 1 e Estrutura de Dados 2
 <ul>
