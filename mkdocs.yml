@@ -10,3 +10,12 @@ theme:
 nav: 
   - 1-Apresentação: index.md
   - 2-Tecnologias com que já trabalhei:  softskills.md
+  - 3-Projetos:
+    - 3.1-Gestimoveis: 
+    - 3.2-Calculator:
+    - 3.3-Agenda de Contatos:
+    - 3.4-Controle de Estacionamento Pago: 
+    - 3.5-Carrinho de Compras:
+    - 3.6-Desafio Zetta:
+    - 3.7-CRUD:
+    - 3.8-INMTE: 
