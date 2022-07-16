@@ -47,7 +47,11 @@
 
 ### Javascript
 
-É um linguagem que usei muito pouco, mas adoraria trabalhar. Prentedo comprar cursos em breve assim como desenvolver algumas inteligencias artificiais utilizando python.
+Fiz Alguns cursos do treinaweb e alguns projetos do Youtube. Utilizei JS algumas vezes para frontend, mas nunca para o backend. Gostaria de ter mais oportunidades de trabalhar com JS pois tá muito em alta e provou ser uma tecnologia muito poderesa, fazem de tudo com nodeJS.
+<ul>
+  <li><a href="">Curso de Javascript</a></li>
+  <li><a href="">Gestimoveis</a></li>
+</ul>
 
 ### Python
 
