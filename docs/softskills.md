@@ -8,14 +8,10 @@
   <img align="center" alt="Judeu-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
    <img align="center" alt="Judeu-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg">
    <img align="center" alt="Judeu-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-   <img align="center" alt="Judeu-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
-  <img align="center" alt="Judeu-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
- 
-
-  <img align="center" alt="Judeu-Spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg">
-  
- 
-  
+   <img align="center" alt="Judeu-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"> 
+    <img align="center" alt="Judeu-Spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
+<img align="center" alt="Judeu-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Judeu-Spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"> 
  </div> 
  <tr>
   </tr>
@@ -84,3 +80,8 @@ Ainda não cursei banco de dados na universidade, mas produzi um material didát
 <ul>
   <li><a href="https://gist.github.com/lramon2001/c68d22e8e31b780fe60a26bd52e4ebb7">Material de consulta</a></li>
 </ul>
+
+### 2.3- Frameworks
+
+Utilizei o ecossistema spring e bootstrap para fazer o projeto da disciplina de Métodos e Desenvolvimento de Software, o react no estágio.
+<li><a href="https://github.com/lramon2001/GestImoveis-Corretores">Gestimoveis</a></li>
