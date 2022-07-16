@@ -9,9 +9,3 @@ theme:
     
 nav: 
   - Apresentação: index.md
-  
-  - Planejamento:
-    - Planejamento: planejamento/planejamento.md
-    - Ferramentas: planejamento/ferramentas.md
-    - Cronograma: planejamento/cronograma.md
-  - Rich Picture: richpicture.md
