@@ -9,6 +9,7 @@ theme:
     
 nav: 
   - 1-Apresentação: index.md
+  - 1.1-Quem sou eu?: qseu.md
   - 2-Tecnologias com que já trabalhei:  softskills.md
   - 3-Projetos:
     - 3.1-Gestimoveis: gestimoveis.md
