@@ -16,7 +16,7 @@
  <tr>
   </tr>
   
-## 2.1 - Linguagens
+## 2.1- Linguagens
 
 ### Java
   É a linguagem que mais tenho familiaridade, o meu primeiro contato com java foi na disciplina de Orientações a Objetos. Fiz diversos cursos com certificação e adoro trabalhar com java.
