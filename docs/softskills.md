@@ -63,3 +63,11 @@ Utilizei uma vez para uma disciplina de cálculo numérico. Linguagem divertida,
 <ul>
   <li><a href="https://github.com/lramon2001/MNE_FGA_UnB">MNE_FGA_UnB</a></li>
 </ul>
+
+## Bancos de Dados
+
+Ainda não cursei banco de dados na universidade, mas produzi um material didático de consulta para me ajudar quando preciso trabalhar com persistência de dados . Já trabalhei com MySQL, Postgres e Firebase.
+
+<ul>
+  <li><a href="https://gist.github.com/lramon2001/c68d22e8e31b780fe60a26bd52e4ebb7">Material de consulta</a></li>
+</ul>
