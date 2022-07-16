@@ -1,7 +1,7 @@
 
 <center>
 
-<img src="./media/teste.png"/>
+<img src="./media/images.jpg"/>
 
 </center>
 
