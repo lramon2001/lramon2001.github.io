@@ -7,11 +7,7 @@ Sou Lucas Ramon futuro engenheiro de software e estudante da Universidade de Bra
 ## 1.1.2- Como ingressei na Universidade?
 
 
-<div align="center">
-
-     <img src="./media/passat.png" width="256" height="256"/>
-
-</div>
+<img src="./media/passat.png" width="256" height="256"/>
 
 
 
