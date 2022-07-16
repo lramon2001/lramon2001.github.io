@@ -14,7 +14,7 @@ Ingressei na Universidade em junho de 2018 pelo vestibular tradicional enquanto 
 
 ## 3. Hobbies e Curiosidades sobre mim
 
-Sou apaixonado por carros, motocicletas e bicicletas. Gosto de dirigir o Opala 1989 do meu tio e o Passat LS do meu outro tio, minha família é bem engajada no negócio. Fazemos manutenção e consertos nos veículos para distração, é uma forma de aproveitar a companhia da parentada e de compartilhar o nosso amor por automóveis.Já a paixão por motocicletas herdei do meu irmão mais velho e sempre que posso enrolo o cabo do acelerador, mas durante a pandemia foi a bicicleta que ganhou espaço no meu coração.
+Sou apaixonado por carros, motocicletas e bicicletas. Gosto de dirigir o Opala 1989 do meu tio e o Passat LS do meu outro tio, minha família é bem engajada no negócio. Fazemos manutenção e consertos nos veículos da família para distração, é uma forma de aproveitar a companhia da parentada e de compartilhar o nosso amor por automóveis.Já a paixão por motocicletas herdei do meu irmão mais velho e sempre que posso enrolo o cabo do acelerador, mas durante a pandemia foi a bicicleta que ganhou espaço no meu coração.
 <table>
 <tr>
 <td align="center">
@@ -27,3 +27,6 @@ Sou apaixonado por carros, motocicletas e bicicletas. Gosto de dirigir o Opala 1
    <img src="./media/bike.png" width="256" height="256"/>
   </td>
   </table>
+  
+  Adoro tocar violão ou guitarra, aprendi assitindo aos vídeos do Cifra Club no Youtube. Minha banda favorita é Iron Maiden!
+  
