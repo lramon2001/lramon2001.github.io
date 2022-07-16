@@ -64,7 +64,13 @@ Utilizei uma vez para uma disciplina de cálculo numérico. Linguagem divertida,
   <li><a href="https://github.com/lramon2001/MNE_FGA_UnB">MNE_FGA_UnB</a></li>
 </ul>
 
-## Bancos de Dados
+### Assembly-MIPS
+
+Usei assembly para a disciplina de Fundamentos de arquitetura de computadores. Linguagem rudimentar, mas divertida em virtude da dificuldade dos comandos. É o que há de mais próximo do Silício,valeu demais a experiência.
+<ul>
+  <li><a href="https://github.com/lramon2001/FAC_FGA_UnB">FAC_FGA_UnB</a></li>
+</ul>
+## 2.2- Bancos de Dados
 
 Ainda não cursei banco de dados na universidade, mas produzi um material didático de consulta para me ajudar quando preciso trabalhar com persistência de dados . Já trabalhei com MySQL, Postgres e Firebase.
 
