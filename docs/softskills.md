@@ -52,3 +52,11 @@
 <ul>
   <li><a href="https://github.com/lramon2001/Python-Fundamentos">Curso de Fundamentos de Python <a/></li>
   </ul>
+  
+ ### Javascript
+ 
+ Usei bastante em projetos, fiz alguns cursos, mas gostaria de aprender mais ou participar de mais projetos com backend JS.
+ <ul>
+  <li><a href="https://github.com/lramon2001/Curso-de-JavaScript"></a> Curso Javascript</li>
+  <li><a href="https://github.com/lramon2001/GestImoveis-Corretores"></a>GestImoveis</li>
+  </ul>
