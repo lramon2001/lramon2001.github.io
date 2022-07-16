@@ -12,5 +12,5 @@
   - [Agenda de Contato-Java FX](https://github.com/lramon2001/Agenda-de-Contatos-JavaFX);
   - [Calculator](https://github.com/lramon2001/Calculator);
   - [Gestimoveis](https://github.com/lramon2001/GestImoveis-Corretores);
-  - [Algoritmo Genetico](https://github.com/lramon2001/Algoritmo-Genetico-UnB)
+  - [Algoritmo Genetico](https://github.com/lramon2001/Algoritmo-Genetico-UnB).
   
