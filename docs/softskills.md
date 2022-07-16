@@ -30,3 +30,10 @@
 <li><a href="https://github.com/lramon2001/Algoritmo-Genetico-UnB">Algoritmo Genetico</a></li>
 </ul>
  
+ ### C/C++
+ 
+  Foi a primeira linguagem com que tive contato, aprendi a pensar em algoritmos com esta linguagem. Meus professores da UnB a utilizaram para estudar Algoritmos e Programação de Computadores, Estrutura de Dados 1 e Estrutura de Dados 2
+<ul>
+  <li><a href="https://github.com/lramon2001/EDA1_FGA_UnB">Estrutura de Dados 1</a></li>
+  <li><a href="https://github.com/lramon2001/EDA2_FGA_UnB">Estrutura de Dados 2</a></li>
+</ul>
