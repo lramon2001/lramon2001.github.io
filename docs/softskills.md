@@ -57,12 +57,3 @@
   <tr>
 </tr>
 
-### Javascript
- 
- Usei bastante em projetos, fiz alguns cursos, mas gostaria de aprender mais ou participar de mais projetos com backend JS.
- 
- 
- <ul>
-  <li><a href="https://github.com/lramon2001/Curso-de-JavaScript">Curso Javascript</a></li>
-  <li><a href="https://github.com/lramon2001/GestImoveis-Corretores">GestImoveis</a></li>
-  </ul>
