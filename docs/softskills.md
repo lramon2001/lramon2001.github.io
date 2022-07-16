@@ -41,3 +41,14 @@
   <li><a href="https://github.com/lramon2001/EDA1_FGA_UnB">Estrutura de Dados 1</a></li>
   <li><a href="https://github.com/lramon2001/EDA2_FGA_UnB">Estrutura de Dados 2</a></li>
 </ul>
+
+<tr>
+</tr>
+
+### Python
+
+É um linguagem que usei muito pouco, mas adoraria trabalhar. Prentedo comprar cursos em breve assim como desenvolver algumas inteligencias artificiais utilizando python.
+
+<ul>
+  <li><a href="https://github.com/lramon2001/Python-Fundamentos">Curso de Fundamentos de Python <a/></li>
+  </ul>
