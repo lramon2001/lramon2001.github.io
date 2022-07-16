@@ -34,6 +34,16 @@
 <tr>
 </tr>
 
+### Python
+
+É um linguagem que usei muito pouco, mas adoraria trabalhar. Prentedo comprar cursos em breve assim como desenvolver algumas inteligencias artificiais utilizando python.
+
+<ul>
+  <li><a href="https://github.com/lramon2001/Python-Fundamentos">Curso de Fundamentos de Python <a/></li>
+</ul>
+<tr>
+</tr>
+
 ### C/C++
  
   Foi a primeira linguagem com que tive contato, aprendi a pensar em algoritmos com esta linguagem. Meus professores da UnB a utilizaram para estudar Algoritmos e Programação de Computadores, Estrutura de Dados 1 e Estrutura de Dados 2
@@ -53,15 +63,6 @@ Fiz Alguns cursos do treinaweb e alguns projetos do Youtube. Utilizei algumas ve
   <li><a href="">Gestimoveis</a></li>
 </ul>
 
-### Python
-
-É um linguagem que usei muito pouco, mas adoraria trabalhar. Prentedo comprar cursos em breve assim como desenvolver algumas inteligencias artificiais utilizando python.
-
-<ul>
-  <li><a href="https://github.com/lramon2001/Python-Fundamentos">Curso de Fundamentos de Python <a/></li>
-</ul>
-
-### Matlab
 
 
 
