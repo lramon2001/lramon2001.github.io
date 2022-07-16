@@ -57,8 +57,7 @@
   <tr>
 </tr>
 
-
- ### Javascript
+### Javascript
  
  Usei bastante em projetos, fiz alguns cursos, mas gostaria de aprender mais ou participar de mais projetos com backend JS.
  
