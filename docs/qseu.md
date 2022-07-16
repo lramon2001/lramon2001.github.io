@@ -9,7 +9,7 @@ Sou Lucas Ramon futuro engenheiro de software e estudante da Universidade de Bra
 
 <div align="center">
 
-<img src="./media/images.jpg"/>
+     <img src="./media/passat.png" width="256" height="256"/>
 
 </div>
 
