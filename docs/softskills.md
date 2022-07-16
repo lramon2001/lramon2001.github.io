@@ -18,15 +18,15 @@
 ### Java
   É a linguagem que mais tenho familiaridade, o meu primeiro contato com java foi na disciplina de Orientações a Objetos. Fiz diversos cursos com certificação e adoro trabalhar com java.
  Lista dos meus projetos feitos utilizando JDK:
-
+<ul>
 <li><a href="https://github.com/lramon2001/INMTE">INMTE</a></li>
 <li><a href="https://github.com/lramon2001/CRUD">CRUD</a></li>
-<li>[Desafio Zetta](https://github.com/lramon2001/DesafioZetta)</li>
-<li>[Carrinho de Compras](https://github.com/lramon2001/CarrinhoDeCompras)</li>
-<li>[Controle de Estacionamento Pago](https://github.com/lramon2001/ControleEstacionamentoPago)</li>
-<li>[Agenda de Contato-Java FX](https://github.com/lramon2001/Agenda-de-Contatos-JavaFX)</li>
-<li>[Calculator](https://github.com/lramon2001/Calculator)</li>
-<li>[Gestimoveis](https://github.com/lramon2001/GestImoveis-Corretores)</li>
-<li>[Algoritmo Genetico](https://github.com/lramon2001/Algoritmo-Genetico-UnB)</li>
+<li><a href="https://github.com/lramon2001/DesafioZetta">Desafio Zetta</a></li>
+<li><a href="https://github.com/lramon2001/CarrinhoDeCompras">Carrinho de Compras</a></li>
+<li><a href="https://github.com/lramon2001/ControleEstacionamentoPago">Controle de um Estacionamento Pago</a></li>
+<li><a href="https://github.com/lramon2001/Agenda-de-Contatos-JavaFX">Agenda de Contatos-JavaFx</a></li>
+<li><a href="https://github.com/lramon2001/Calculator">Calculator</a></li>
+<li><a href="https://github.com/lramon2001/GestImoveis-Corretores">Gestimoveis</a></li>
+<li><a href="https://github.com/lramon2001/Algoritmo-Genetico-UnB">Algoritmo Genetico</a></li>
 </ul>
  
