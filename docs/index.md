@@ -18,5 +18,4 @@ Sou apaixonado por carros, motocicletas e bicicletas. Gosto de dirigir o Opala 1
 <img src="./media/opala.png" width="256" height="256"/> <img src="./media/passat.png" width="256" height="256"/><img src="./media/bike.png" width="256" height="256"/>
 
 ### 3.2- Rock n roll
-
-  
+Adoro tocar violão ou guitarra, aprendi assitindo aos vídeos do Cifra Club no Youtube. Iron Maiden, Metallica, Engenheiros do Hawaii, Legião Urbana e Raul Seixas são grupos que me agradam.
