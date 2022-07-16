@@ -1,7 +1,7 @@
 
 <center>
 
-<img src="./media/unbcapa.png"/>
+<img src="./media/teste.png"/>
 
 </center>
 
