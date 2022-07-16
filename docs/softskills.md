@@ -14,6 +14,7 @@
  </div> 
  <tr>
   </tr>
+  
 ## 2.1 - Linguagens
 
 ### Java
