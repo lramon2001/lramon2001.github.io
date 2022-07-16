@@ -8,8 +8,10 @@ theme:
     scheme: slate
     
 nav: 
-  - 1-Apresentação: index.md
-  - 1.1-Quem sou eu?: qseu.md
+  - Home: index.md
+  - 1-Apresentação
+    - 1.1- Quem sou eu? : qseu.md
+    - 1.2- Hobbies e curiosidades : hobbies.md 
   - 2-Tecnologias com que já trabalhei:  softskills.md
   - 3-Projetos:
     - 3.1-Gestimoveis: gestimoveis.md
