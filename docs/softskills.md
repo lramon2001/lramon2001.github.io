@@ -47,7 +47,7 @@
 
 ### Javascript
 
-Fiz Alguns cursos do treinaweb e alguns projetos do Youtube. Utilizei JS algumas vezes para frontend, mas nunca para o backend. Gostaria de ter mais oportunidades de trabalhar com JS pois tá muito em alta e provou ser uma tecnologia muito poderesa, fazem de tudo com nodeJS.
+Fiz Alguns cursos do treinaweb e alguns projetos do Youtube. Utilizei algumas vezes para frontend, mas nunca para o backend. Gostaria de ter mais oportunidades de trabalhar com JS pois tá muito em alta e provou ser uma tecnologia muito poderesa, fazem de tudo com nodeJS.
 <ul>
   <li><a href="">Curso de Javascript</a></li>
   <li><a href="">Gestimoveis</a></li>
@@ -60,4 +60,9 @@ Fiz Alguns cursos do treinaweb e alguns projetos do Youtube. Utilizei JS algumas
 <ul>
   <li><a href="https://github.com/lramon2001/Python-Fundamentos">Curso de Fundamentos de Python <a/></li>
 </ul>
+
+### Matlab
+
+
+
 
