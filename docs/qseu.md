@@ -1,3 +1,8 @@
+<center>
+
+<img src="./media/LucasRamonSoftwareEngineerProfile.png"/>
+
+</center>
 
 
 ## 1.1.1- Quem sou eu?
