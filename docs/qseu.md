@@ -1,6 +1,6 @@
 <center>
 
-<img src="./media/LucasRamonSoftwareEngineerProfile.png"/>
+<img src="https://raw.githubusercontent.com/lramon2001/lramon2001.github.io/master/docs/media/images.jpg"/>
 
 </center>
 
