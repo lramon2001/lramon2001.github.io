@@ -1,13 +1,13 @@
 
-
-## 1.1.1- Quem sou eu?
-Sou Lucas Ramon futuro engenheiro de software e estudante da Universidade de Brasília.
-
 <center>
 
 <img src="https://raw.githubusercontent.com/lramon2001/lramon2001.github.io/master/docs/media/images.jpg"/>
 
 </center>
+
+## 1.1.1- Quem sou eu?
+Sou Lucas Ramon futuro engenheiro de software e estudante da Universidade de Brasília.
+
 
 ## 1.1.2- Como ingressei na Universidade?
 
