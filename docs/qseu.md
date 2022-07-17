@@ -1,8 +1,9 @@
 
 <center>
 
-<img src="https://raw.githubusercontent.com/lramon2001/lramon2001.github.io/master/docs/media/images.jpg"/>
+<img src="https://raw.githubusercontent.com/lramon2001/lramon2001.github.io/master/docs/media/images.jpg" height="220px"  width="880px;"/>
 
+  
 </center>
 
 ## 1.1.1- Quem sou eu?
