@@ -1,5 +1,11 @@
 
+
 ### 6.1.1 Sobre a Zetta
+<center>
+  
+<img src="https://raw.githubusercontent.com/lramon2001/lramon2001.github.io/master/docs/media/zetta.jpg" height="220px"  width="300px;"/> <img src="https://raw.githubusercontent.com/lramon2001/lramon2001.github.io/master/docs/media/zetta2.jpg" height="220px"  width="300px;"/>
+  
+</center>
 Zetta é a Agência UFLA de inovação, geotecnologias e sistemas inteligentes vinculada à Universidade Federal de Lavras, uma das melhores instituições públicas de ensino do país.
 
 ### 6.1.2 Minha experiência na Zetta
