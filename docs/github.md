@@ -1,4 +1,4 @@
-### GitHub Stats e Linguagens mais usadas 
+### 1.2.1-GitHub Stats e Linguagens mais usadas 
 
 
 <div align="center">
@@ -6,7 +6,7 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lramon2001&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lramon2001&layout=compact&langs_count=16&theme=algolia"/>
 </div>
 
-### Acesse meu perfil no github 
+### 1.2.2-Acesse meu perfil no github 
    
   
   <a href="https://github.com/lramon2001" target="_blank"><img src="https://camo.githubusercontent.com/f6d50128cb007f85916b7a899da5d94f654dce35a37331c8d28573aef46f4274/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6769746875622d2532333132313031312e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465" target="_blank">
