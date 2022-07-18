@@ -21,7 +21,7 @@
   </div>
 
   </div>
-  
+ </div>
 ### Entre em contato 
   <div align="center">
   <a href="https://www.linkedin.com/in/lucas-ramon-alves-de-oliveira/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
