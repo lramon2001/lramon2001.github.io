@@ -1,5 +1,5 @@
 # Sobre Mim
-
+Me considero um cara muito comunicativo, tenho facilidade de fazer amigos e converso muito com pessoas conhecidas ou desconhecidas. Bate-papo descontraido,bons amigos e café sem açúcar são fatores de uma soma que resultam em boas ideias.
 ## Hobbies 
 
 Maaas criar bugs e loops infinitos não é única coisa que eu faço na vida!!!
