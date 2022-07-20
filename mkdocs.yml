@@ -44,9 +44,9 @@ nav:
     - 6.1- Desenvolvedor java em Agência Zetta: cdzetta.md
     - 6.2- Telemetria de poços atersianos: poco.md
     - 6.3- Monitoria de física: Elite.md
-#  - 7-Certificados: 
- #   - 7.1-Java:
-  #    - 7.1.1-Fundamentos:
+  - 7-Certificados: 
+    - 7.1-Java:
+      - 7.1.1-Fundamentos: javafundamentos.md
    #   - 7.1.2-Algoritmos:
     #  - 7.1.3-Estrutura de Dados 1:
      # - 7.1.4-Estrutura de Dados 2:
