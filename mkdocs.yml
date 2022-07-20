@@ -63,9 +63,9 @@ nav:
     - 7.3-Linguagem C/C++:
       - 7.3.1-C básico: bascioc.md
       - 7.3.2-C intermediário: cinter.md
-    #- 7.4-Outros:
-     # - 7.4.1-MySQL:
-      #- 7.4.2-Lógica Orientada a Objeto:
+    - 7.4-Outros:
+      - 7.4.1-MySQL: mysqlc.md
+      - 7.4.2-Lógica Orientada a Objeto: ooc.md
 
  # - 8-idiomas:
   
