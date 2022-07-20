@@ -57,7 +57,7 @@ nav:
       - 7.1.9-JDBC: javajdbc.md
     - 7.2-Spring Framework:
      - 7.2.1-Spring Fundamentos: springfundamentos.md
-      - 7.2.2-Spring JPA: springjpa.md
+      - 7.2.2-Spring JPA: springjpa.md 
       #- 7.2.3-Spring Security:
       #- 7.2.4-Spring Thymeleaf:
     #- 7.3-Linguagem C/C++:
