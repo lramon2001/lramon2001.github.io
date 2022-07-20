@@ -54,7 +54,7 @@ nav:
       - 7.1.6-Java Collections 2: javacollections2c.md
       - 7.1.7-Orientação a Objetos: javaooc.md
       - 7.1.8-Java Stream API: javastream.md
-      #- 7.1.9-JDBC:
+      - 7.1.9-JDBC: javajdbc.md
     #- 7.2-Spring Framework:
      # - 7.2.1-Spring Fundamentos:
       #- 7.2.2-Spring JPA:
