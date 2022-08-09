@@ -66,6 +66,6 @@ nav:
     - 7.4-Outros:
       - 7.4.1-MySQL: mysqlc.md
       - 7.4.2-Lógica Orientada a Objeto: ooc.md
-
+      - 7.4.3-Git Fundamentos: gitcurso.md
  # - 8-idiomas:
   
