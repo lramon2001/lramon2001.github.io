@@ -1,7 +1,7 @@
 
 <center>
 
-<img src="./media/LucasRamonSoftwareEngineerProfile.png"/>
+<img src="./media/home.png"/>
 
 </center>
 
