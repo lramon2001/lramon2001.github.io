@@ -55,17 +55,23 @@ nav:
       - 7.1.7-Orientação a Objetos: javaooc.md
       - 7.1.8-Java Stream API: javastream.md
       - 7.1.9-JDBC: javajdbc.md
+      - 7.1.10-Java no Vscode: javavscodec.md
     - 7.2-Spring Framework:
       - 7.2.1-Spring Fundamentos: springfundamentos.md
       - 7.2.2-Spring JPA: springjpa.md 
       - 7.2.3-Spring Security: springsecurityc.md
       - 7.2.4-Spring Thymeleaf: springtmc.md
+      - 7.2.5-Deploy no Heroku: deployHeroku.md
     - 7.3-Linguagem C/C++:
       - 7.3.1-C básico: bascioc.md
       - 7.3.2-C intermediário: cinter.md
-    - 7.4-Outros:
-      - 7.4.1-MySQL: mysqlc.md
-      - 7.4.2-Lógica Orientada a Objeto: ooc.md
-      - 7.4.3-Git Fundamentos: gitcurso.md
+    - 7.5-Python:
+      - 7.5.1-Python Fundamentos: pythonfc.md
+    - 7.5-Outros:
+      - 7.5.1-MySQL: mysqlc.md
+      - 7.5.2-Lógica Orientada a Objeto: ooc.md
+      - 7.5.3-Git Fundamentos: gitcurso.md
+      - 7.5.4-API-Rest: apirestc.md
+      
  # - 8-idiomas:
   
