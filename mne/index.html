@@ -1,0 +1,1702 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>4.9-Metódos numéricos - Portfólio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mne_fga_unb" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="Portfólio" class="md-header__button md-logo" aria-label="Portfólio" data-md-component="logo">
+      
+  <img src="../media/LR.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Portfólio
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4.9-Metódos numéricos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Portfólio" class="md-nav__button md-logo" aria-label="Portfólio" data-md-component="logo">
+      
+  <img src="../media/LR.png" alt="logo">
+
+    </a>
+    Portfólio
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          1-Apresentação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1-Apresentação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          1-Apresentação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qseu/" class="md-nav__link">
+        1.1- Sobre mim
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../github/" class="md-nav__link">
+        1.2- Github
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contato/" class="md-nav__link">
+        1.3- Contato e redes sociais
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hobbies1/" class="md-nav__link">
+        1.3- Hobbies e curiosidades
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../softskills/" class="md-nav__link">
+        2-Tecnologias com que já trabalhei
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          3-Projetos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3-Projetos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          3-Projetos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gestimoveis/" class="md-nav__link">
+        3.1-Gestimoveis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calculator/" class="md-nav__link">
+        3.2-Calculator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agenda/" class="md-nav__link">
+        3.3-Agenda de Contatos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../estacionamento/" class="md-nav__link">
+        3.4-Controle de Estacionamento Pago
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../carrinho/" class="md-nav__link">
+        3.5-Carrinho de Compras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../zetta/" class="md-nav__link">
+        3.6-Desafio Zetta
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crud/" class="md-nav__link">
+        3.7-CRUD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inmte/" class="md-nav__link">
+        3.8-INMTE
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          4-Estudos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4-Estudos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          4-Estudos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cursoJS/" class="md-nav__link">
+        4.1-Curso de JavaScript
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OO/" class="md-nav__link">
+        4.2-Programação Orientada a Objetos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../algoritmos/" class="md-nav__link">
+        4.3-Algoritmos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../estruturadedados1/" class="md-nav__link">
+        4.4-Estrutura de dados 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javacollections1/" class="md-nav__link">
+        4.5-Java Collections 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../estruturadedados2/" class="md-nav__link">
+        4.6-Estrutura de Dados 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javacollections2/" class="md-nav__link">
+        4.7-Java Collections 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jpa/" class="md-nav__link">
+        4.8-JPA-Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          4.9-Metódos numéricos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        4.9-Metódos numéricos
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#plotar-graficos-em-matlab" class="md-nav__link">
+    Plotar gráficos em MATLAB
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lista-1" class="md-nav__link">
+    Lista 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lista-2" class="md-nav__link">
+    Lista 2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zeros-reais-de-funcoes-reais" class="md-nav__link">
+    Zeros reais de funções reais
+  </a>
+  
+    <nav class="md-nav" aria-label="Zeros reais de funções reais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodo-da-bissecao" class="md-nav__link">
+    Método da bisseção
+  </a>
+  
+    <nav class="md-nav" aria-label="Método da bisseção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-metodo" class="md-nav__link">
+    O método
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-da-posicao-falsa-regula-falsi" class="md-nav__link">
+    Método da posição falsa (Regula falsi)
+  </a>
+  
+    <nav class="md-nav" aria-label="Método da posição falsa (Regula falsi)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-metodo_1" class="md-nav__link">
+    O método
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-de-newton-rapson" class="md-nav__link">
+    Método de Newton-Rapson
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links-para-verificacao-de-contas" class="md-nav__link">
+    Links para verificação de contas
+  </a>
+  
+    <nav class="md-nav" aria-label="Links para verificação de contas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#para-conferir-conversao-de-binarios" class="md-nav__link">
+    Para conferir conversão de binários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#para-conferir-resolucao-de-sistemas-lineares" class="md-nav__link">
+    Para conferir resolução de sistemas lineares
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#para-conferir-resolucao-por-gauss-seidel" class="md-nav__link">
+    Para conferir resolução por Gauss Seidel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#para-conferir-erro" class="md-nav__link">
+    Para conferir erro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link-para-conferir-interpolacao-de-lagrange" class="md-nav__link">
+    Link para conferir interpolação de Lagrange
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link-para-conferir-interpolacao-de-metodo-dos-minimos-quadrados" class="md-nav__link">
+    Link para conferir interpolação de Método dos Mínimos Quadrados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link-para-conferir-integracao-numerica" class="md-nav__link">
+    Link para conferir integração numérica
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eda1/" class="md-nav__link">
+        4.10-Estrutura de Dados e Algoritmos 1 em C
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eda2/" class="md-nav__link">
+        4.11-Estrutura de Dados e Algoritmos 2 em C
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pyfundamentos/" class="md-nav__link">
+        4.12-Python-Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fac/" class="md-nav__link">
+        4.13-Fundamentos da Arquitetura de computadores
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          5-Projeto de iniciação cientifica
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="5-Projeto de iniciação cientifica" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          5-Projeto de iniciação cientifica
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ag/" class="md-nav__link">
+        5.1-Algoritmos genéticos
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          6- Experiências profissionais
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="6- Experiências profissionais" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          6- Experiências profissionais
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cdzetta/" class="md-nav__link">
+        6.1- Desenvolvedor java em Agência Zetta
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../poco/" class="md-nav__link">
+        6.2- Telemetria de poços atersianos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elite/" class="md-nav__link">
+        6.3- Monitoria de física
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          7-Certificados
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7-Certificados" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          7-Certificados
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_1" type="checkbox" id="__nav_8_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1">
+          7.1-Java
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7.1-Java" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_1">
+          <span class="md-nav__icon md-icon"></span>
+          7.1-Java
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javafundamentos/" class="md-nav__link">
+        7.1.1-Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javaalgoritmos/" class="md-nav__link">
+        7.1.2-Algoritmos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javaeda1/" class="md-nav__link">
+        7.1.3-Estrutura de Dados 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javaeda2/" class="md-nav__link">
+        7.1.4-Estrutura de Dados 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javacollections1c/" class="md-nav__link">
+        7.1.5-Java Collections 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javacollections2c/" class="md-nav__link">
+        7.1.6-Java Collections 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javaooc/" class="md-nav__link">
+        7.1.7-Orientação a Objetos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javastream/" class="md-nav__link">
+        7.1.8-Java Stream API
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_2" type="checkbox" id="__nav_8_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2">
+          7.2-Spring Framework
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7.2-Spring Framework" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          7.2-Spring Framework
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../springfundamentos/" class="md-nav__link">
+        7.2.1-Spring Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../springjpa/" class="md-nav__link">
+        7.2.2-Spring JPA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../springsecurityc/" class="md-nav__link">
+        7.2.3-Spring Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../springtmc/" class="md-nav__link">
+        7.2.4-Spring Thymeleaf
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_3" type="checkbox" id="__nav_8_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_3">
+          7.3-Linguagem C/C++
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7.3-Linguagem C/C++" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_3">
+          <span class="md-nav__icon md-icon"></span>
+          7.3-Linguagem C/C++
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bascioc/" class="md-nav__link">
+        7.3.1-C básico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cinter/" class="md-nav__link">
+        7.3.2-C intermediário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_4" type="checkbox" id="__nav_8_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_4">
+          7.5-Outros
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7.5-Outros" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_4">
+          <span class="md-nav__icon md-icon"></span>
+          7.5-Outros
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mysqlc/" class="md-nav__link">
+        7.5.1-MySQL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ooc/" class="md-nav__link">
+        7.5.2-Lógica Orientada a Objeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitcurso/" class="md-nav__link">
+        7.5.3-Git Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apirestc.md" class="md-nav__link">
+        7.5.4-API-Rest
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#plotar-graficos-em-matlab" class="md-nav__link">
+    Plotar gráficos em MATLAB
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lista-1" class="md-nav__link">
+    Lista 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lista-2" class="md-nav__link">
+    Lista 2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zeros-reais-de-funcoes-reais" class="md-nav__link">
+    Zeros reais de funções reais
+  </a>
+  
+    <nav class="md-nav" aria-label="Zeros reais de funções reais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodo-da-bissecao" class="md-nav__link">
+    Método da bisseção
+  </a>
+  
+    <nav class="md-nav" aria-label="Método da bisseção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-metodo" class="md-nav__link">
+    O método
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-da-posicao-falsa-regula-falsi" class="md-nav__link">
+    Método da posição falsa (Regula falsi)
+  </a>
+  
+    <nav class="md-nav" aria-label="Método da posição falsa (Regula falsi)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-metodo_1" class="md-nav__link">
+    O método
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodo-de-newton-rapson" class="md-nav__link">
+    Método de Newton-Rapson
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links-para-verificacao-de-contas" class="md-nav__link">
+    Links para verificação de contas
+  </a>
+  
+    <nav class="md-nav" aria-label="Links para verificação de contas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#para-conferir-conversao-de-binarios" class="md-nav__link">
+    Para conferir conversão de binários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#para-conferir-resolucao-de-sistemas-lineares" class="md-nav__link">
+    Para conferir resolução de sistemas lineares
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#para-conferir-resolucao-por-gauss-seidel" class="md-nav__link">
+    Para conferir resolução por Gauss Seidel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#para-conferir-erro" class="md-nav__link">
+    Para conferir erro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link-para-conferir-interpolacao-de-lagrange" class="md-nav__link">
+    Link para conferir interpolação de Lagrange
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link-para-conferir-interpolacao-de-metodo-dos-minimos-quadrados" class="md-nav__link">
+    Link para conferir interpolação de Método dos Mínimos Quadrados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link-para-conferir-integracao-numerica" class="md-nav__link">
+    Link para conferir integração numérica
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<p>Clique <a href="https://github.com/lramon2001/MNE_FGA_UnB">aqui</a> para acessar o código fonte do repositório.</p>
+<h1 id="mne_fga_unb">MNE_FGA_UnB</h1>
+<p>MNE_FGA_UnB 📚-Repositório Criado para a disciplina de Métodos numéricos para engenharia do Professor Ronne Toledo da FGA-UnB</p>
+<h2 id="plotar-graficos-em-matlab">Plotar gráficos em MATLAB</h2>
+<p><b>Clique <a href="https://github.com/lramon2001/MNE_FGA_UnB/blob/master/Linguaguem%20de%20Programacao/plotar_grafico.m">aqui</a> para acessar um script que plota um exemplo de gráfico em Matlab.</b></p>
+<h2 id="lista-1">Lista 1</h2>
+<p><b> A lista 1 está disponível, para acessá-la clique <a href="https://github.com/lramon2001/MNE_FGA_UnB/tree/master/Listas/problemas/Problemas_Lista_1">aqui</a> .</b></p>
+<p><b> Na lista um foi explorada a habilidade de conversão de bases numéricas, problemas de erros (relativo ou absoluto) e séries numéricas.</b></p>
+<p><b>Clique <a href="https://github.com/lramon2001/MNE_FGA_UnB/tree/master/Listas/solucoes/Lista_1">aqui</a> para ver as soluções feitas por mim e pelo Maicon Rodrigues .</b>
+<br><br>by <b>Lucas Ramon e Maicon Rodrigues</b></p>
+<h2 id="lista-2">Lista 2</h2>
+<p><b> A lista 2 está disponível, para acessá-la clique <a href="https://github.com/lramon2001/MNE_FGA_UnB/tree/master/Listas/problemas/Problemas_Lista_2">aqui</a>.</b>
+<b> Na lista dois foi explorada a habilidade de resolução de equações utilizando os métodos numéricos e solução de sistemas lineares.</b></p>
+<p><b>Clique <a href="https://github.com/lramon2001/MNE_FGA_UnB/tree/master/Listas/solucoes/Lista_2">aqui</a> para ver as soluções feitas por mim e pelo Maicon Rodrigues .</b>
+<br><br>by <b>Lucas Ramon e Maicon Rodrigues</b></p>
+<h2 id="zeros-reais-de-funcoes-reais">Zeros reais de funções reais</h2>
+<h3 id="metodo-da-bissecao">Método da bisseção</h3>
+<p>O método da bisseção é um método de busca de raízes que bissecta repetidamente um intervalo e então seleciona um subintervalo contendo a raiz para processamento adicional.</p>
+<h4 id="o-metodo">O método</h4>
+<p>Este método pode ser usado para encontrar as raízes de uma função contínua f:[a,b] tal que R,y=f(x). Tendo f(a) e f(b) sinais opostos, ou seja f(a)·f(b)&lt;0 .Nestas condições, o teorema do valor intermediário garante a existência de uma raiz no intervalo (a,b).O método consiste em dividir o intervalo no seu ponto médio c=(a+b)/2, e então verificar em qual dos dois subintervalos garante-se a existência de uma raiz. Para tanto, basta verificar se f(a)·f(c)&lt;0. Caso afirmativo, existe pelo menos uma raiz no intervalo (a,c) , caso contrário garante-se a existência de uma raiz no intervalo (c,b). O procedimento é, então, repetido para o subintervalo correspondente à raiz até que  aproxime a raiz com a precisão desejada.<br></p>
+<div align="center">
+   <img height="250em" src="https://github.com/lramon2001/MNE_FGA_UnB/blob/master/Bisection_anime.gif"/>
+</div>
+
+<p><b>Clique <a href="https://github.com/lramon2001/MNE_FGA_UnB/blob/master/Zeros%20reais%20de%20funcoes%20reais/metodo_bissecao.m">aqui</a> para ver a nossa implementação para o método.</b></p>
+<h3 id="metodo-da-posicao-falsa-regula-falsi">Método da posição falsa (Regula falsi)</h3>
+<p>Método da posição falsa ou regula falsi é um método numérico usado para resolver equações lineares definidas em um intervalo [a, b], partindo do pressuposto de que haja uma solução em um subintervalo contido em [a, b]. E assim, diminuindo esse subintervalo em partes cada vez menores, a solução estará onde a função tem sinais opostos, segundo o Teorema do Valor Intermediário. A determinação do tamanho do subintervalo é definida pelo critério de exatidão.</p>
+<h4 id="o-metodo_1">O método</h4>
+<p>O método da posição falsa é um método de confinamento usado para se obter a solução de uma equação na forma f(x)=0 quando se sabe que, dentro de um dado intervalo definido [a,b], f(x) é contínua e a equação possui uma solução. Os pontos finais do intervalo analisados são conectados por uma linha reta, sendo a estimativa para a raiz o ponto onde a reta cruza o eixo x.<br></p>
+<div align="center">
+   <img height="250em" src="https://github.com/lramon2001/MNE_FGA_UnB/blob/master/regulafalsi.gif"/>
+</div>
+
+<p><b>Clique <a href="https://github.com/lramon2001/MNE_FGA_UnB/blob/master/Zeros%20reais%20de%20funcoes%20reais/metodo_posicao_falsa.m">aqui</a> para ver a nossa implementação para o método.</b></p>
+<h3 id="metodo-de-newton-rapson">Método de Newton-Rapson</h3>
+<p>Em análise numérica, o método de Newton (ou Método de Newton–Raphson), desenvolvido por Isaac Newton e Joseph Raphson, tem o objetivo de estimar as raízes de uma função. Para isso, escolhe-se uma aproximação inicial para esta. Após isso, calcula-se a equação da reta tangente (por meio da derivada) ao gráfico da função nesse ponto e a interseção dela com o eixo das abcissas, a fim de encontrar uma melhor aproximação para a raiz. Repetindo-se o processo, cria-se um método iterativo para encontrarmos a raiz da função. Em notação matemática, o método de Newton é dado pela seguinte sequência recursiva:</p>
+<div align="center">
+   <img height="250em" src="https://github.com/lramon2001/MNE_FGA_UnB/blob/master/newtonraphson.gif"/>
+</div>
+
+<p><b>Clique <a href="https://github.com/lramon2001/MNE_FGA_UnB/blob/master/Zeros%20reais%20de%20funcoes%20reais/newtonrapson.m">aqui</a> para ver a nossa implementação para o método.</b></p>
+<h2 id="links-para-verificacao-de-contas">Links para verificação de contas</h2>
+<h3 id="para-conferir-conversao-de-binarios">Para conferir conversão de binários</h3>
+<ul>
+<li>Clique <a href="https://pt.planetcalc.com/862/">aqui</a> para ir ao site que converte números de acordo com a base desejada.</li>
+</ul>
+<h3 id="para-conferir-resolucao-de-sistemas-lineares">Para conferir resolução de sistemas lineares</h3>
+<ul>
+<li>Clique <a href="https://matrixcalc.org/pt/">aqui</a> para ir ao site que demonstra a solução de um sistema linear.</li>
+</ul>
+<h3 id="para-conferir-resolucao-por-gauss-seidel">Para conferir resolução por Gauss Seidel</h3>
+<ul>
+<li>Clique <a href="https://atozmath.com/CONM/GaussEli.aspx?q=GS2&amp;q1=2%608x%2b2y%2b3z%3d51%3b2x%2b5y%2b1z%3d23%3b-3x%2by%2b6z%3d20%60GS2%60%601.25&amp;dm=D&amp;dp=4&amp;do=1#PrevPart">aqui</a> para ir ao site que demonstra a solução de um sistema linear por Gauss Sidel.</li>
+</ul>
+<h3 id="para-conferir-erro">Para conferir erro</h3>
+<ul>
+<li>Clique <a href="https://conversor-de-medidas.com/ep/">aqui</a> para ir ao site que demonstra a solução de um sistema linear por Gauss Sidel.</li>
+</ul>
+<h3 id="link-para-conferir-interpolacao-de-lagrange">Link para conferir interpolação de Lagrange</h3>
+<ul>
+<li>Clique <a href="https://pt.planetcalc.com/8692/">aqui</a> para ir ao site que demonstra a interpolação por Lagrange.</li>
+</ul>
+<h3 id="link-para-conferir-interpolacao-de-metodo-dos-minimos-quadrados">Link para conferir interpolação de Método dos Mínimos Quadrados</h3>
+<ul>
+<li>Clique <a href="https://pt.planetcalc.com/8735/">aqui</a> para ir ao site que demonstra a solução por mínimos quadrados.</li>
+</ul>
+<h3 id="link-para-conferir-integracao-numerica">Link para conferir integração numérica</h3>
+<ul>
+<li>Clique <a href="https://pt.planetcalc.com/5494/#calculator6472">aqui</a> para ir ao site que demonstra a solução de integração.</li>
+</ul>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+      
+        
+        <a href="../jpa/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 4.8-JPA-Fundamentos" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              4.8-JPA-Fundamentos
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../eda1/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 4.10-Estrutura de Dados e Algoritmos 1 em C" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              4.10-Estrutura de Dados e Algoritmos 1 em C
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>

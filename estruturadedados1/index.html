@@ -1,0 +1,1713 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>4.4-Estrutura de dados 1 - Portfólio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#data-structure-course-1-curso-de-estrutura-de-dados-1" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="Portfólio" class="md-header__button md-logo" aria-label="Portfólio" data-md-component="logo">
+      
+  <img src="../media/LR.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Portfólio
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4.4-Estrutura de dados 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Portfólio" class="md-nav__button md-logo" aria-label="Portfólio" data-md-component="logo">
+      
+  <img src="../media/LR.png" alt="logo">
+
+    </a>
+    Portfólio
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          1-Apresentação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1-Apresentação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          1-Apresentação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qseu/" class="md-nav__link">
+        1.1- Sobre mim
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../github/" class="md-nav__link">
+        1.2- Github
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contato/" class="md-nav__link">
+        1.3- Contato e redes sociais
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hobbies1/" class="md-nav__link">
+        1.3- Hobbies e curiosidades
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../softskills/" class="md-nav__link">
+        2-Tecnologias com que já trabalhei
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          3-Projetos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3-Projetos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          3-Projetos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gestimoveis/" class="md-nav__link">
+        3.1-Gestimoveis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calculator/" class="md-nav__link">
+        3.2-Calculator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agenda/" class="md-nav__link">
+        3.3-Agenda de Contatos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../estacionamento/" class="md-nav__link">
+        3.4-Controle de Estacionamento Pago
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../carrinho/" class="md-nav__link">
+        3.5-Carrinho de Compras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../zetta/" class="md-nav__link">
+        3.6-Desafio Zetta
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crud/" class="md-nav__link">
+        3.7-CRUD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inmte/" class="md-nav__link">
+        3.8-INMTE
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          4-Estudos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4-Estudos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          4-Estudos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cursoJS/" class="md-nav__link">
+        4.1-Curso de JavaScript
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OO/" class="md-nav__link">
+        4.2-Programação Orientada a Objetos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../algoritmos/" class="md-nav__link">
+        4.3-Algoritmos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          4.4-Estrutura de dados 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        4.4-Estrutura de dados 1
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#menu-ementa" class="md-nav__link">
+    Menu / Ementa
+  </a>
+  
+    <nav class="md-nav" aria-label="Menu / Ementa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#memory-management-gerenciamento-de-memoria" class="md-nav__link">
+    Memory management / Gerenciamento de memória
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arrays-vetores" class="md-nav__link">
+    Arrays / Vetores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linked-lists-listas-ligadas" class="md-nav__link">
+    Linked Lists / Listas Ligadas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#doubly-linked-lists-listas-duplamente-ligada" class="md-nav__link">
+    Doubly Linked Lists / Listas Duplamente Ligada
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stacks-pilhas" class="md-nav__link">
+    Stacks / Pilhas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#queues-filas" class="md-nav__link">
+    Queues / Filas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#memory-management-gerenciamento-de-memoria_1" class="md-nav__link">
+    Memory management / Gerenciamento de memória
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arrays-vetores_1" class="md-nav__link">
+    Arrays / Vetores
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linked-lists-listas-ligadas_1" class="md-nav__link">
+    Linked Lists / Listas Ligadas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#doubly-linked-lists-listas-duplamente-ligada_1" class="md-nav__link">
+    Doubly Linked Lists / Listas Duplamente Ligada
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacks-pilhas_1" class="md-nav__link">
+    Stacks / Pilhas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#queues-filas_1" class="md-nav__link">
+    Queues / Filas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#history-historia" class="md-nav__link">
+    History / História
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license-licenca" class="md-nav__link">
+    License / Licença
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javacollections1/" class="md-nav__link">
+        4.5-Java Collections 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../estruturadedados2/" class="md-nav__link">
+        4.6-Estrutura de Dados 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javacollections2/" class="md-nav__link">
+        4.7-Java Collections 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jpa/" class="md-nav__link">
+        4.8-JPA-Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mne/" class="md-nav__link">
+        4.9-Metódos numéricos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eda1/" class="md-nav__link">
+        4.10-Estrutura de Dados e Algoritmos 1 em C
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eda2/" class="md-nav__link">
+        4.11-Estrutura de Dados e Algoritmos 2 em C
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pyfundamentos/" class="md-nav__link">
+        4.12-Python-Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fac/" class="md-nav__link">
+        4.13-Fundamentos da Arquitetura de computadores
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          5-Projeto de iniciação cientifica
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="5-Projeto de iniciação cientifica" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          5-Projeto de iniciação cientifica
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ag/" class="md-nav__link">
+        5.1-Algoritmos genéticos
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          6- Experiências profissionais
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="6- Experiências profissionais" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          6- Experiências profissionais
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cdzetta/" class="md-nav__link">
+        6.1- Desenvolvedor java em Agência Zetta
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../poco/" class="md-nav__link">
+        6.2- Telemetria de poços atersianos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elite/" class="md-nav__link">
+        6.3- Monitoria de física
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          7-Certificados
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7-Certificados" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          7-Certificados
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_1" type="checkbox" id="__nav_8_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1">
+          7.1-Java
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7.1-Java" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_1">
+          <span class="md-nav__icon md-icon"></span>
+          7.1-Java
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javafundamentos/" class="md-nav__link">
+        7.1.1-Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javaalgoritmos/" class="md-nav__link">
+        7.1.2-Algoritmos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javaeda1/" class="md-nav__link">
+        7.1.3-Estrutura de Dados 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javaeda2/" class="md-nav__link">
+        7.1.4-Estrutura de Dados 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javacollections1c/" class="md-nav__link">
+        7.1.5-Java Collections 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javacollections2c/" class="md-nav__link">
+        7.1.6-Java Collections 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javaooc/" class="md-nav__link">
+        7.1.7-Orientação a Objetos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javastream/" class="md-nav__link">
+        7.1.8-Java Stream API
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_2" type="checkbox" id="__nav_8_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2">
+          7.2-Spring Framework
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7.2-Spring Framework" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          7.2-Spring Framework
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../springfundamentos/" class="md-nav__link">
+        7.2.1-Spring Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../springjpa/" class="md-nav__link">
+        7.2.2-Spring JPA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../springsecurityc/" class="md-nav__link">
+        7.2.3-Spring Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../springtmc/" class="md-nav__link">
+        7.2.4-Spring Thymeleaf
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_3" type="checkbox" id="__nav_8_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_3">
+          7.3-Linguagem C/C++
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7.3-Linguagem C/C++" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_3">
+          <span class="md-nav__icon md-icon"></span>
+          7.3-Linguagem C/C++
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bascioc/" class="md-nav__link">
+        7.3.1-C básico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cinter/" class="md-nav__link">
+        7.3.2-C intermediário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_4" type="checkbox" id="__nav_8_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_4">
+          7.5-Outros
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="7.5-Outros" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_4">
+          <span class="md-nav__icon md-icon"></span>
+          7.5-Outros
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mysqlc/" class="md-nav__link">
+        7.5.1-MySQL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ooc/" class="md-nav__link">
+        7.5.2-Lógica Orientada a Objeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitcurso/" class="md-nav__link">
+        7.5.3-Git Fundamentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apirestc.md" class="md-nav__link">
+        7.5.4-API-Rest
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#menu-ementa" class="md-nav__link">
+    Menu / Ementa
+  </a>
+  
+    <nav class="md-nav" aria-label="Menu / Ementa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#memory-management-gerenciamento-de-memoria" class="md-nav__link">
+    Memory management / Gerenciamento de memória
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arrays-vetores" class="md-nav__link">
+    Arrays / Vetores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linked-lists-listas-ligadas" class="md-nav__link">
+    Linked Lists / Listas Ligadas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#doubly-linked-lists-listas-duplamente-ligada" class="md-nav__link">
+    Doubly Linked Lists / Listas Duplamente Ligada
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stacks-pilhas" class="md-nav__link">
+    Stacks / Pilhas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#queues-filas" class="md-nav__link">
+    Queues / Filas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#memory-management-gerenciamento-de-memoria_1" class="md-nav__link">
+    Memory management / Gerenciamento de memória
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arrays-vetores_1" class="md-nav__link">
+    Arrays / Vetores
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linked-lists-listas-ligadas_1" class="md-nav__link">
+    Linked Lists / Listas Ligadas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#doubly-linked-lists-listas-duplamente-ligada_1" class="md-nav__link">
+    Doubly Linked Lists / Listas Duplamente Ligada
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacks-pilhas_1" class="md-nav__link">
+    Stacks / Pilhas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#queues-filas_1" class="md-nav__link">
+    Queues / Filas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#history-historia" class="md-nav__link">
+    History / História
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license-licenca" class="md-nav__link">
+    License / Licença
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<p>Clique <a href="https://github.com/lramon2001/EstruturaDeDados1/edit/main/README.md">aqui</a> para acessar o código fonte do repositório.</p>
+<h1 id="data-structure-course-1-curso-de-estrutura-de-dados-1">Data Structure Course 1 / Curso de Estrutura de Dados 1</h1>
+<p><a href="https://github.com/lramon2001/EstruturaDeDadosEalgoritmos"><img alt="Série" src="https://img.shields.io/badge/lramon2001-DataStructure-orange" /></a>
+<a href="https://github.com/lramon2001/EstruturaDeDadosEalgoritmos/blob/main/LICENSE"><img alt="licence mit" src="https://img.shields.io/badge/licence-MIT-blue.svg" /></a>
+<img alt="language" src="https://img.shields.io/badge/java-only-yellow" /></p>
+<p>:books: Java approach to a recurring theme in computer science : Data Structure. </p>
+<blockquote>
+<p>:books: <strong>Uma abordagem em java sobre um tema recorrente na ciência da computação : Estrutura de Dados.</strong></p>
+</blockquote>
+<h2 id="menu-ementa">Menu / Ementa</h2>
+<h3 id="memory-management-gerenciamento-de-memoria">Memory management / Gerenciamento de memória</h3>
+<ul>
+<li>Value-Types and Reference-Types / Value-Types e Reference-Types</li>
+<li>Basic memory management : Stack e Heap / Gerenciamento básico de memória : Stack e Heap</li>
+<li>pointers,equals method and hashcode / Ponteiros, métodos equals e hashcode.</li>
+</ul>
+<h3 id="arrays-vetores">Arrays / Vetores</h3>
+<ul>
+<li>Basic concepts arrays / Vetores conceitos básicos;</li>
+<li>Encapsulating the features of an array / Encapsulando as funcionalidades de um vetor;</li>
+<li>Creating generic structures with array / Criando estruturas genéricas com vetores;</li>
+<li>Creating the insertion functionality / Criando a funcionalidade de inserção;</li>
+<li>Creating the insertion functionality in a specific position / Criando a funcionalidade de inserção em uma posição específica;</li>
+<li>Interacting under an array / Interando sob um vetor;</li>
+<li>Adding the features contains () and index () / Adicionando as funcionalidades contém() e índice();</li>
+<li>Adding element removal functionality / Adicionando a funcionalidade de remoção de elementos.</li>
+</ul>
+<h3 id="linked-lists-listas-ligadas">Linked Lists / Listas Ligadas</h3>
+<ul>
+<li>Definition of linked lists / Definição de listas ligadas;</li>
+<li>Creating a generic representation for a node / Criando uma representação genérica para um nó;</li>
+<li>Creating the basic structure of a linked list / Criando a estrutura básica de uma lista ligada;</li>
+<li>Creating the functionalities of insertion, return of size and verification of the existence of nodes / Criando as funcionalidades de inserção, de retorno do tamanho e de         verificação de existência de nós;</li>
+<li>Creating functionalities in a position and recovering nodes / Criando as funcionalidades em uma posição e de recuperação de nós;</li>
+<li>Implementing the methods contain() and index() / Implementando os métodos contem() e indice();</li>
+<li>Implementing removal features / Implementando as funcionalidades de remoção;</li>
+<li>Getting to know the LinkedList class / Conhecendo a classe LinkedList.</li>
+</ul>
+<h3 id="doubly-linked-lists-listas-duplamente-ligada">Doubly Linked Lists / Listas Duplamente Ligada</h3>
+<ul>
+<li>Definition of doubly linked lists / Definição de listas duplamentes ligadas;</li>
+<li>Basic concepts and implementations / Conceitos e implementações básicas;</li>
+<li>Modifying the removal methods / Modificando os métodos de remoção;</li>
+<li>Testing the doubly linked list / Testando a lista duplamente ligada. </li>
+</ul>
+<h3 id="stacks-pilhas">Stacks / Pilhas</h3>
+<ul>
+<li>Basic concept / Conceito básico;</li>
+<li>Implementing the stacking and checking the existence of nodes functionality / Implementando as funcionalidades de empilhamento e de verificação de existênica de nós;</li>
+<li>Implementing the destacking functionality / Implementando a funcionalidade de desempilhamento;</li>
+</ul>
+<h3 id="queues-filas">Queues / Filas</h3>
+<ul>
+<li>Basic concept / Conceito básico;</li>
+<li>Implementing queuing, dequeuing, and node presence checking features / Implementando as funcionalidades de enfileiramento, desenfileiramento e verificação de presença de nós.</li>
+</ul>
+<h2 id="memory-management-gerenciamento-de-memoria_1">Memory management / Gerenciamento de memória</h2>
+<p><img alt="imagem" src="https://github.com/lramon2001/EstruturaDeDados1/blob/main/reference-type.png" /></p>
+<pre><code>Um Value-Type armazena seu conteúdo na memória alocada na stack. Quando você cria um Value-Type, 
+um único espaço na memória é alocado para armazenar o valor e essa variável contém diretamente um valor. 
+Se você atribuí-lo a outra variável, o valor é copiado diretamente e ambas as variáveis funcionam 
+independentemente. Tipos de dados, estruturas e enums predefinidos também são tipos de valor e funcionam 
+da mesma maneira. Tipos de valor podem ser criados em tempo de compilação e armazenados na memória da
+stack, por isso, o coletor de lixo não pode acessar a stack.
+
+Reference-Types são usados por uma referência que contém uma referência (endereço) para o objeto, mas não o próprio 
+objeto. Como os tipos de referência representam o endereço da variável em vez dos próprios dados, atribuir uma variável
+de referência a outra não copia os dados. Em vez disso, ele cria uma segunda cópia da referência, que se refere ao mesmo 
+local do heap que o valor original. Variáveis Reference-Types são armazenadas em uma área diferente da memória chamada heap.
+Isso significa que quando uma variável Reference-Type não é mais usada, ela pode ser marcada para coleta de lixo. Exemplos 
+de Reference-Types são classes, objetos, matrizes, indexadores, interfaces etc.
+</code></pre>
+<h2 id="arrays-vetores_1">Arrays / Vetores</h2>
+<p><img alt="imagem" src="https://github.com/lramon2001/EstruturaDeDados1/blob/main/arrayok.png" /></p>
+<pre><code>Um array é uma estrutura de dados que armazena uma coleção de elementos de tal forma que cada um dos elementos possa ser 
+identificado por, pelo menos, um índice ou uma chave. Essa estrutura de dados também é conhecida como variável indexada,
+vetor (para arranjos unidimensionais) e matriz (para arranjos bidimensionais). Os arranjos mantêm uma série de elementos 
+de dados, geralmente do mesmo tamanho e tipo de dados. Elementos individuais são acessados por sua posição no arranjo. A 
+posição é dada por um índice, também chamado de subscrição. O índice geralmente utiliza uma sequência de números inteiros,
+mas o índice pode ter qualquer valor ordinal. Os arranjos podem ser multidimensionais, significando que eles são indexados
+por um número fixo de números inteiros, por exemplo, por uma sequência (ou sucessão) finita de quatro números inteiros.
+Geralmente, arranjos unidimensionais e bidimensionais são os mais comuns. Os arrays podem ser considerados como as 
+estruturas de dados mais simples. Têm a vantagem de que os seus elementos são acessíveis de forma rápida mas têm uma 
+notável limitação: são de tamanho fixo, mas podem ser incrementados ou diminuídos com determinados algoritmos, geralmente
+envolvendo a cópia de elementos de um arranjo para outro e reiniciar o original com a nova dimensão. 
+</code></pre>
+<h2 id="linked-lists-listas-ligadas_1">Linked Lists / Listas Ligadas</h2>
+<p><img alt="gif" src="https://github.com/lramon2001/EstruturaDeDados1/blob/main/listasLigadas.gif" /></p>
+<pre><code>Uma lista encadeada ou lista ligada é uma estrutura de dados linear e dinâmica. Ela é composta por várias células que estão
+interligadas através de ponteiros, ou seja, cada célula possui um ponteiro que aponta para o endereço de memória da próxima 
+célula. Desse modo, as células da estrutura não precisam estar em posições contíguas da memória. Isso faz com que a estrutura
+se torne dinâmica, pois há qualquer momento, é possível alocar uma nova célula e mudar os ponteiros das células já 
+existentes, de modo que a nova célula seja inserida na estrutura com êxito, na posição desejada pelo programador.
+</code></pre>
+<h2 id="doubly-linked-lists-listas-duplamente-ligada_1">Doubly Linked Lists / Listas Duplamente Ligada</h2>
+<p><img alt="gif" src="https://github.com/lramon2001/EstruturaDeDados1/blob/main/listaDuplamenteLigadas.gif" /></p>
+<pre><code>Em ciência da computação, uma lista duplamente ligada (ou lista duplamente encadeada) é uma estrutura de dados ligada que 
+consiste de um conjunto de registros sequencialmente ligados chamados de nós e é uma extensão da lista simplesmente ligada
+(ou lista simplesmente encadeada). Cada nó contem dois campos, chamados de links ou enlaces, que são referências para o nó
+anterior e para o nó posterior na sequência de nós. Os links anteriores e posteriores dos nós inicial e final, respectivamente,
+apontam para algum tipo de terminador, tipicamente um nó sentinela ou nulo, para facilitar o percorrimento da lista. Se houver 
+apenas um nó sentinela, a lista será vinculada circularmente através do nó sentinela. Ele pode ser conceituado como duas listas
+unicamente vinculadas formadas a partir dos mesmos itens de dados, mas em ordens sequenciais opostas.
+
+</code></pre>
+<h2 id="stacks-pilhas_1">Stacks / Pilhas</h2>
+<p><img alt="gif" src="https://github.com/lramon2001/EstruturaDeDados1/blob/main/stack.gif" /></p>
+<pre><code>Pilha ou stack é um tipo especial de lista linear em que todas as operações de inserção e remoção são realizadas pela mesma 
+extremidade chamada topo. Os elementos são removidos na ordem do programa inversa daquela em que foram inseridos de modo que
+o último elemento que entra é sempre o primeiro ser executado , por isto este tipo de estrutura é chamada LIFO (Last In - First Out)
+ou FILO (First In - Last Out).
+&quot;O exemplo mais prático que costuma utilizar-se para entender o processo de pilha é como uma pilha de livros ou pilha de pratos, no qual
+ao se colocar diversos elementos uns sobre os outros, se quisermos pegar o livro mais abaixo deveremos tirar todos os livros que estiverem 
+sobre ele.&quot;
+
+Uma pilha geralmente suporta 4 operações básicas:
+-TOP: acessa-se o elemento posicionado no topo da pilha;
+-PUSH: insere um novo elemento no topo da pilha;
+-POP: remove o elemento do topo da pilha.
+-PULL:altera o elemento posicionado no topo da pilha;
+</code></pre>
+<h2 id="queues-filas_1">Queues / Filas</h2>
+<p><img alt="gif" src="https://github.com/lramon2001/EstruturaDeDados1/blob/main/fila.gif" /></p>
+<pre><code>A Fila é uma estrutura de dados bastante usada em computação. Na estrutura de fila, os acessos aos elementos também seguem uma regra. 
+O que diferencia a fila da pilha é a ordem de saída dos elementos: enquanto na pilha “o último que entra é o primeiro que sai”, na fila 
+“o primeiro que entra é o primeiro que sai” (a sigla FIFO – first in, first out – é usada para descrever essa estratégia).
+A ideia fundamental da fila é que só podemos inserir um novo elemento no final da fila e só podemos retirar o elemento do início.
+A estrutura de fila é uma analogia natural com o conceito de fila que usamos no nosso dia a dia: quem primeiro entra numa fila é o primeiro
+a ser atendido (a sair da fila). Um exemplo de utilização em computação é a implementação de uma fila de impressão, fila de atendimento, etc. 
+Se uma impressora é compartilhada por várias máquinas, deve-se adotar uma estratégia para determinar que documento será impresso primeiro. 
+A estratégia mais simples é tratar todas as requisições com a mesma prioridade e imprimir os documentos na ordem em que foram submetidos – 
+o primeiro submetido é o primeiro a ser impresso. 
+Para implementar uma fila, devemos ser capazes de inserir novos elementos em uma extremidade, o fim, e retirar elementos da outra extremidade,
+o início. Ou seja, sempre inserimos novos elementos no fim da fila e quando removemos u um elemento ele é retirado do início da fila.
+
+</code></pre>
+<h2 id="history-historia">History / História</h2>
+<ul>
+<li>See <a href="https://github.com/lramon2001/Algoritmos/pulse">Commit changes</a> for details.</li>
+</ul>
+<blockquote>
+<p><strong>Consulte <a href="https://github.com/lramon2001/Algoritmos/pulse">Mudanças de commit</a> para obter detalhes.</strong></p>
+</blockquote>
+<h2 id="license-licenca">License / Licença</h2>
+<p><a href="https://github.com/lramon2001/INMTE/blob/main/LICENSE">MIT License</a> © <a href="https://github.com/lramon2001">Lucas Ramon</a></p>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+      
+        
+        <a href="../algoritmos/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 4.3-Algoritmos" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              4.3-Algoritmos
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../javacollections1/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 4.5-Java Collections 1" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              4.5-Java Collections 1
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>
